@@ -1,0 +1,6 @@
+
+select a.* , b.COLCICLOPGCA, b.COLCICLOPGINT from stageba.amortizaciones_proyectadas@basig a, dwba.coldocum b
+where fecha_pago_pro between '28/02/2020' and '31/12/2020'
+and colfchproc='31/01/2020'
+and colreferen=REFERENCIA; 
+ 
